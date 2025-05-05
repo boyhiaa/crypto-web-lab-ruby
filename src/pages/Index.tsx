@@ -9,10 +9,10 @@ const Index = () => {
       <header className="py-8 bg-gradient-to-r from-crypto-primary to-crypto-secondary">
         <div className="container mx-auto px-4">
           <h1 className="text-3xl md:text-4xl font-bold text-white text-center">
-            Classical Cryptography Laboratory
+            Laboratorium Kriptografi Klasik
           </h1>
           <p className="text-white/80 text-center mt-2">
-            Implementation of Various Cipher Algorithms
+            Implementasi Berbagai Algoritma Cipher
           </p>
         </div>
       </header>
@@ -20,10 +20,11 @@ const Index = () => {
       <main className="container mx-auto px-4 py-8">
         <Card className="mb-8 border-crypto-accent/20 shadow-lg">
           <CardContent className="pt-6">
-            <h2 className="text-xl font-semibold mb-2 text-crypto-primary">About This Application</h2>
+            <h2 className="text-xl font-semibold mb-2 text-crypto-primary">Tentang Aplikasi Ini</h2>
             <p className="text-muted-foreground">
-              This web application implements various classical cipher algorithms for educational purposes.
-              You can encrypt and decrypt messages using different techniques developed throughout the history of cryptography.
+              Aplikasi web ini mengimplementasikan berbagai algoritma cipher klasik untuk tujuan pendidikan.
+              Anda dapat mengenkripsi dan mendekripsi pesan menggunakan berbagai teknik yang dikembangkan sepanjang
+              sejarah kriptografi.
             </p>
           </CardContent>
         </Card>
@@ -32,13 +33,13 @@ const Index = () => {
         
         <Card className="mt-8 border-crypto-accent/20 shadow-lg">
           <CardContent className="pt-6">
-            <h2 className="text-xl font-semibold mb-2 text-crypto-primary">Instructions</h2>
+            <h2 className="text-xl font-semibold mb-2 text-crypto-primary">Petunjuk Penggunaan</h2>
             <ul className="list-disc pl-5 space-y-2 text-muted-foreground">
-              <li>Select a cipher algorithm from the tabs above</li>
-              <li>Enter your plaintext (message to encrypt) or ciphertext (message to decrypt)</li>
-              <li>Enter the required keys and parameters for the selected algorithm</li>
-              <li>Click "Encrypt" to generate ciphertext or "Decrypt" to recover plaintext</li>
-              <li>Each cipher has different key requirements, so read the descriptions carefully</li>
+              <li>Pilih algoritma cipher dari tab di atas</li>
+              <li>Masukkan plaintext (pesan untuk dienkripsi) atau ciphertext (pesan untuk didekripsi)</li>
+              <li>Masukkan kunci dan parameter yang diperlukan untuk algoritma yang dipilih</li>
+              <li>Klik "Enkripsi" untuk menghasilkan ciphertext atau "Dekripsi" untuk memulihkan plaintext</li>
+              <li>Setiap cipher memiliki persyaratan kunci yang berbeda, jadi baca deskripsi dengan seksama</li>
             </ul>
           </CardContent>
         </Card>
@@ -46,8 +47,8 @@ const Index = () => {
 
       <footer className="py-6 bg-crypto-dark text-white/70">
         <div className="container mx-auto px-4 text-center text-sm">
-          <p>Cryptography Course Assignment - Classical Cipher Implementation</p>
-          <p className="mt-2">© {new Date().getFullYear()} - All Rights Reserved</p>
+          <p>Tugas Mata Kuliah Kriptografi - Implementasi Cipher Klasik</p>
+          <p className="mt-2">© {new Date().getFullYear()} - Hak Cipta Dilindungi</p>
         </div>
       </footer>
     </div>
