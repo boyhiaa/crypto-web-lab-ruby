@@ -64,12 +64,12 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				crypto: {
-					primary: '#3b4fd1',
-					secondary: '#6c63ff',
-					tertiary: '#8A2BE2',
-					accent: '#4F46E5',
-					background: '#f9fafc',
-					dark: '#1E293B'
+					primary: '#2C3E50',    // Biru gelap
+					secondary: '#34495E',  // Abu-abu kebiruan
+					tertiary: '#3498DB',   // Biru cerah
+					accent: '#1E293B',     // Biru sangat gelap
+					background: '#F5F7FA', // Abu-abu sangat terang
+					dark: '#1A202C'        // Hitam kebiruan
 				}
 			},
 			borderRadius: {

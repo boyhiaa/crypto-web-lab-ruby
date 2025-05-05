@@ -6,7 +6,7 @@ import { Card, CardContent } from '@/components/ui/card';
 const Index = () => {
   return (
     <div className="min-h-screen bg-crypto-background">
-      <header className="py-8 bg-gradient-to-r from-crypto-primary to-crypto-tertiary">
+      <header className="py-8 bg-gradient-to-r from-crypto-primary to-crypto-secondary">
         <div className="container mx-auto px-4">
           <h1 className="text-3xl md:text-4xl font-bold text-white text-center">
             Classical Cryptography Laboratory
@@ -18,9 +18,9 @@ const Index = () => {
       </header>
 
       <main className="container mx-auto px-4 py-8">
-        <Card className="mb-8">
+        <Card className="mb-8 border-crypto-accent/20 shadow-lg">
           <CardContent className="pt-6">
-            <h2 className="text-xl font-semibold mb-2">About This Application</h2>
+            <h2 className="text-xl font-semibold mb-2 text-crypto-primary">About This Application</h2>
             <p className="text-muted-foreground">
               This web application implements various classical cipher algorithms for educational purposes.
               You can encrypt and decrypt messages using different techniques developed throughout the history of cryptography.
@@ -30,9 +30,9 @@ const Index = () => {
 
         <CipherTabs />
         
-        <Card className="mt-8">
+        <Card className="mt-8 border-crypto-accent/20 shadow-lg">
           <CardContent className="pt-6">
-            <h2 className="text-xl font-semibold mb-2">Instructions</h2>
+            <h2 className="text-xl font-semibold mb-2 text-crypto-primary">Instructions</h2>
             <ul className="list-disc pl-5 space-y-2 text-muted-foreground">
               <li>Select a cipher algorithm from the tabs above</li>
               <li>Enter your plaintext (message to encrypt) or ciphertext (message to decrypt)</li>
